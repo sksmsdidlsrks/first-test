@@ -26,7 +26,7 @@ def summarize_text(text):
     return None
 
 # 사용 예
-image_path = 'img\KakaoTalk_20241029_133622848_01.png'  # 실제 이미지 경로로 변경
+image_path = 'img/ticket2.png'  # 실제 이미지 경로로 변경
 extracted_text = extract_text(image_path)
 summary = summarize_text(extracted_text)
 
